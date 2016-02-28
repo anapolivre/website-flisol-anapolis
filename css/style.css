@@ -98,7 +98,7 @@ h1 {
 }
 
 h1 span {
-	color: #1ba8dc;
+	color: #F39C12;
 }
 
 h2 {
@@ -111,7 +111,7 @@ h2 {
 }
 
 h2 span {
-	color: #1ba8dc;
+	color: #F39C12;
 }
 
 h3 {
@@ -124,21 +124,21 @@ h3 {
 }
 
 h3 span {
-	color: #1ba8dc;
+	color: #F39C12;
 }
 
 
 h4 {
 	font-size: 16px;
 	line-height: 26px;
-	color: #1ba8dc;
+	color: #F39C12;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	margin-bottom: 20px;
 }
 
 h4 span {
-	color: #1ba8dc;
+	color: #F39C12;
 }
 
 
@@ -152,7 +152,7 @@ p {
 
 a {
 	text-decoration: none;
-	color: #1ba8dc;
+	color: #F39C12;
 	-webkit-transition: color linear .2s;
 	-moz-transition: color linear .2s;
 	-o-transition: color linear .2s;
@@ -210,11 +210,11 @@ table {
 }
 
 .color-text {
-	color: #1ba8dc;
+	color: #F39C12;
 }
 
 .color-background {
-	background: #1ba8dc;
+	background: #F39C12;
 	color: #ffffff;
 }
 
@@ -274,7 +274,7 @@ table {
 
 .button-dark {	
 	background: #ffffff;
-	color: #1ba8dc;
+	color: #F39C12;
 	padding: 12px 30px 12px 30px;
 	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
@@ -290,7 +290,7 @@ table {
 }
 
 .button-dark:hover {
-	background: #1ba8dc;
+	background: #F39C12;
 	color: #ffffff;
 }
 
@@ -349,7 +349,7 @@ ul.nav li a {
 }
 
 ul.nav li a:hover {
-	color: #1ba8dc;
+	color: #F39C12;
 	background: #f2f2f2;
 }
 
@@ -390,7 +390,7 @@ body.fixed-nav .teaser {
 	opacity: 0.80;
 	padding: 6px 12px;
 
-	color: #1ba8dc;
+	color: #F39C12;
 	font-weight: bold;
 	line-height: 42px;
 	text-shadow: 1px 1px #191919;
@@ -484,7 +484,7 @@ body.fixed-nav .teaser {
 }
 
 .flex-control-paging li a.flex-active { 
-	background: #1ba8dc; 
+	background: #F39C12; 
 	cursor: default; 
 }
 
@@ -508,7 +508,7 @@ body.fixed-nav .teaser {
 }
 
 .featured h2 {
-	background: #1ba8dc;
+	background: #F39C12;
 	-webkit-border-radius: 10px; 
 	-moz-border-radius: 10px; 
 	-o-border-radius: 10px; 
@@ -555,7 +555,7 @@ body.fixed-nav .teaser {
 }
 
 .featured form input:focus {
-	background: #1ba8dc url(../images/icon-right.png) no-repeat 20px center;
+	background: #F39C12 url(../images/icon-right.png) no-repeat 20px center;
 	color: #ffffff;
 	box-shadow: none !important;
 }
@@ -590,7 +590,7 @@ body.fixed-nav .teaser {
 }
 
 .checkbox-on .checkbox-placeholder {
-	background: #1ba8dc url(../images/icon-checkbox.png) center center no-repeat !important;
+	background: #F39C12 url(../images/icon-checkbox.png) center center no-repeat !important;
 }
 
 .featured form .checkbox-container input {
@@ -605,7 +605,7 @@ body.fixed-nav .teaser {
 }
 
 .featured form input[type="submit"] {
-	background: #1ba8dc;
+	background: #F39C12;
 	color: #ffffff;
 	width: 100%;
 	margin-bottom: 0px;
@@ -637,7 +637,7 @@ body.fixed-nav .teaser {
 }
 
 .featured .event-recap div h3 {
-	color: #1ba8dc;
+	color: #F39C12;
 }
 
 .featured .event-recap div h3,
@@ -661,7 +661,7 @@ body.fixed-nav .teaser {
 	width: 100%;
 	text-align: center;
 	line-height: 40px;
-	background: #1ba8dc;
+	background: #F39C12;
 	color: #ffffff;
 	display: block;
 	font-size: 20px;
@@ -728,7 +728,7 @@ body.fixed-nav .teaser {
 .plan-title {
 	width: 100%;
 	text-align: center;
-	background: #1ba8dc;
+	background: #F39C12;
 	color: #ffffff;
 	font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
@@ -801,7 +801,7 @@ body.fixed-nav .teaser {
 
 .plan-price {
 	font-size: 24px;
-	color: #1ba8dc;
+	color: #F39C12;
 }
 
 .hidden-info {
@@ -815,7 +815,7 @@ body.fixed-nav .teaser {
 }
 
 .button-row a {
-	background: #1ba8dc;
+	background: #F39C12;
 	color: #ffffff;
 	padding: 12px 30px;
 	font-size: 16px;
@@ -869,12 +869,12 @@ body.fixed-nav .teaser {
 }
 
 .testimonials .span4:hover .bubble {
-	background: #1ba8dc;
+	background: #F39C12;
 	color: #ffffff;
 }
 
 .testimonials .span4:hover .bubble:after {
-	border-top-color: #1ba8dc;
+	border-top-color: #F39C12;
 }
 
 .gray-background .bubble {
@@ -915,7 +915,7 @@ body.fixed-nav .teaser {
 }
 
 .gallery .image-container {
-	background: #1ba8dc url(../images/icon-plus.png) center center no-repeat;
+	background: #F39C12 url(../images/icon-plus.png) center center no-repeat;
 	-webkit-border-radius: 6px; 
 	-moz-border-radius: 6px; 
 	-o-border-radius: 6px;
@@ -957,7 +957,7 @@ body.fixed-nav .teaser {
 }
 
 .program table:hover thead td {
-	background: #1ba8dc;
+	background: #F39C12;
 }
 
 .program table:hover thead td h3,
@@ -975,7 +975,7 @@ body.fixed-nav .teaser {
 }
 
 .program table thead td h3 {
-	color: #1ba8dc;
+	color: #F39C12;
 	margin-bottom: 0px;
 	-webkit-transition: color linear .2s;
 	-moz-transition: color linear .2s;
@@ -983,7 +983,7 @@ body.fixed-nav .teaser {
 }
 
 .program table thead td h4 {
-	color: #1ba8dc;
+	color: #F39C12;
 	margin-bottom: 0px;
 }
 
@@ -1061,7 +1061,7 @@ body.fixed-nav .teaser {
 }
 
 .prices a.ticket-button {
-	background: #1ba8dc;
+	background: #F39C12;
 	color: #ffffff;
 	display: block;
 	padding: 15px 30px;
@@ -1133,7 +1133,7 @@ body.fixed-nav .teaser {
 }
 
 .register form input:focus {
-	background: #1ba8dc url(../images/icon-right.png) no-repeat 20px center;
+	background: #F39C12 url(../images/icon-right.png) no-repeat 20px center;
 	color: #ffffff;
 	box-shadow: none !important;
 }
@@ -1168,7 +1168,7 @@ body.fixed-nav .teaser {
 }
 
 .checkbox-on .checkbox-placeholder {
-	background: #1ba8dc url(../images/icon-checkbox.png) center center no-repeat !important;
+	background: #F39C12 url(../images/icon-checkbox.png) center center no-repeat !important;
 }
 
 .register form .checkbox-container input {
@@ -1183,7 +1183,7 @@ body.fixed-nav .teaser {
 }
 
 .register form input[type="submit"] {
-	background: #1ba8dc;
+	background: #F39C12;
 	color: #ffffff;
 	width: 100%;
 	margin-bottom: 0px;
@@ -1212,11 +1212,11 @@ ul.downloads li a {
 }
 
 ul.downloads li a:hover {
-	color: #1ba8dc;
+	color: #F39C12;
 }
 
 ul.downloads li a i {
-	color: #1ba8dc;
+	color: #F39C12;
 	font-size: 24px;
 	padding-right: 20px;
 }
@@ -1339,7 +1339,7 @@ ul.downloads li a i {
 }
 
 .social li a:hover {
-	background: #1ba8dc;
+	background: #F39C12;
 }
 
 
@@ -1397,7 +1397,7 @@ ul.niveles li{
 }
 
 .azul, .junior{
-	background: #1ba8dc;
+	background: #F39C12;
 }
 .rojo, .senior{
 	background: #1a171b;
