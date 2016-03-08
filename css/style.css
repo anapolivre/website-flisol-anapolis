@@ -374,9 +374,9 @@ body.fixed-nav .teaser {
 }
 
 .teaser {
-	//background: url(http://placehold.it/1920x470) no-repeat center center;
-	//background: url(http://wpcordoba.org/2013/fotos/MG_2079.jpg) no-repeat center center;
-	background: url(http://wpcordoba.org/2013/fotos/wpcordoba.jpg) no-repeat 30% 30%;
+	/*background: url(http://placehold.it/1920x470) no-repeat center center;
+	background: url(http://wpcordoba.org/2013/fotos/MG_2079.jpg) no-repeat center center;*/
+	background: url(../fotos/wpcordoba.jpg) no-repeat 30% 30%;
 }
 
 .teaser .text-container {
