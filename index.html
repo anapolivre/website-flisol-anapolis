@@ -48,11 +48,10 @@
 		<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
 		<script type="text/javascript" src="js/jquery.validate.min.js"></script> <!-- Form Validation -->
 		<script type="text/javascript" src="js/attraction.js"></script> <!-- Custom JS -->
+		<script type="text/javascript" src="js/contact.js"></script> <!-- Custom JS -->
 
-		
-
-		
 	</head>
+
 	<body id="top" class="fixed-nav">
 
 		<!-- ==============================================
@@ -210,7 +209,7 @@
 
 				<div class="row">
 					<div class="span12">
-						<table>
+						<table class="table">
 							<thead>
 								<tr>
 									<td colspan="3">
@@ -423,10 +422,11 @@
 		<!-- End Hero
 		============================================== -->
 
+
+
 		<!-- ==============================================
 		Gallery
 		=============================================== -->
-
 		<section class="gallery dark-gray-background" id="photos">
 			<div class="container">
 				<div class="row">
@@ -495,33 +495,66 @@
 		<!-- End Gallery
 		============================================== -->
 
+
+
 		<!-- ==============================================
-		Propuestas
+		Contato
 		=============================================== -->
-		<section class="prices white-background" id="proposals">
+		<section class="contact-new white-background" id="contact">
 			<div class="container">
 				<div class="row">
 					<div class="span12">
-						<h2 class="no-margin-bottom">Propuestas</h2>
-						<h4>¿Qué te gustaría aprender? ¿Qué quieres mostrar al resto?</h4>
+						<h2 class="no-margin-bottom">Entre em contato</h2>
+						<h4>Olá, tem algumas duvida, sugestão ou até uma critica construtiva. Estaremos muito feliz em responder!!! </h4>
 					</div>
 				</div>
 
 				<div class="row">
-					<div class="span12">
-						<p>Entre todos y todas hacemos posible este evento. Si tienes alguna propuesta o sugerencia, escribe a <a href="mailto:info@wpcordoba.org">info@wpcordoba.org</a>.</p>
-					</div>
+					<!-- <div class="span12"> -->
+						<form action="send-mail.php" method="post" id="send-contact">
+							<div class="control-group span6">
+							    <label class="control-label" for="contact-nome">Nome: </label>
+							    <div class="controls">
+							    	<input type="text" placeholder="seu nome completo" required name="nome" class="span6 required">
+							    </div>
+							</div>
+
+							<div class="control-group span6">
+							    <label class="control-label" for="contact-email">E-mail: </label>
+							    <div class="controls">
+							    	<input type="email" placeholder="exemplo@exemplo.com" required name="email" class="span6 required">
+								</div>
+							</div>
+							
+							<div class="control-group span12">
+							    <label class="control-label" style="margin-bottom:5px;" for="contact-email">Mensagem: </label>
+							    <div class="controls">
+							    	<textarea name="mensagem" placeholder="sua mensagem aqui" required rows="7"  class="span12 required"></textarea>
+								</div>
+							</div>							
+
+ 							<div class="control-group span12">
+							    <div class="controls">
+									<a href="javascript:enviar_contato();"  class="btn btn-large btn-primary">
+										Enviar
+									</a>
+								</div> 
+							</div>
+
+						</form>
+					<!-- </div> -->
 				</div>
 			</div>
 		</section>
-		<!-- End Prices 
+		<!-- End Contato 
 		============================================== -->
 
 		<!-- ==============================================
 		Map
 		=============================================== -->
 		<section class="map" id="donde">
-		<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=Facultad+de+Ciencias+del+Trabajo+C%C3%B3rdoba&amp;aq=t&amp;sll=37.891443,-4.777719&amp;sspn=0.001223,0.002422&amp;ie=UTF8&amp;hq=Facultad+de+Ciencias+del+Trabajo&amp;hnear=C%C3%B3rdoba,+Andaluc%C3%ADa&amp;ll=37.891561,-4.777489&amp;spn=0.00972,0.019376&amp;t=m&amp;z=16&amp;iwloc=A&amp;cid=13399424715315953711&amp;output=embed"></iframe>
+		<!--<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=Facultad+de+Ciencias+del+Trabajo+C%C3%B3rdoba&amp;aq=t&amp;sll=37.891443,-4.777719&amp;sspn=0.001223,0.002422&amp;ie=UTF8&amp;hq=Facultad+de+Ciencias+del+Trabajo&amp;hnear=C%C3%B3rdoba,+Andaluc%C3%ADa&amp;ll=37.891561,-4.777489&amp;spn=0.00972,0.019376&amp;t=m&amp;z=16&amp;iwloc=A&amp;cid=13399424715315953711&amp;output=embed"></iframe>-->
+<!-- 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8077.544272824823!2d-48.95279266851738!3d-16.380369676617743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x26cba1f1f43e5366!2sUniversidade+Estadual+de+Goi%C3%A1s+-+Campus+Henrique+Santillo!5e1!3m2!1spt-BR!2sbr!4v1457889960743" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="border:0" allowfullscreen></iframe> -->
 
 		</section>
 		<!-- End Map 
@@ -530,14 +563,12 @@
 		<!-- ==============================================
 		Register
 		=============================================== -->
-<!--
-		<section class="register darker-background" id="register">
+<!-- 		<section class="register darker-background" id="register">
 			<div class="container">
 				<div class="row">
 					<div class="span5">
 						<h2 class="no-margin-bottom">Inscríbete</h2>
 						
-<!--
 						<h4>Completa aquí tus datos:</h4>
 						<form action="send-mail.php" method="post" id="contact-form">
 							<input type="text" value="Tu nombre" name="name" class="required">
@@ -553,43 +584,38 @@
 							<a href="http://www.eventbrite.es/event/7714136189">
 								<input type="submit" name="register" value="Inscribirme">
 							</a>
-
 						</form>
--->
-<!--
-							<form>
+
+
+						<form>
 							<a href="http://www.eventbrite.es/event/7714136189">
 								<input type="submit" name="register" value="Completar mi inscripción">
 							</a>
-</form>
+						</form>
 
 					</div>
 
 					<div class="span6 offset1">
 						<p>Quisque vel justo ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis rutrum risus quis est faucibus a consequat massa sagittis. Cras bibendum elit id felis dapibus volutpat.<br>
-</p>
+						</p>
 
--->
-
-						<!--
 						<h3>Downloads</h3>
 						<ul class="downloads">
 							<li><a href="#"><i class="icon-download-alt"></i> Complete 2013 Event Edition calendar</a></li>
 							<li><a href="#"><i class="icon-download-alt"></i> Event rules</a></li>
 							<li><a href="#"><i class="icon-download-alt"></i> Reporters registration 2013</a></li>
 						</ul>
-						-->
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- End Register 
 		============================================== -->
 
 
 
 
-<!-- ==============================================
+		<!-- ==============================================
 		Sponsor
 		=============================================== -->
 		<section class="sponsor white-background">
@@ -623,6 +649,7 @@
 		</section>
 		<!-- End Sponsor 
 		============================================== -->
+
 
 
 		
