@@ -1,0 +1,4 @@
+node_modules/
+deploy/
+gruntfile.js
+package.json
